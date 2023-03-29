@@ -1,0 +1,32 @@
+body{
+    background-color:hsl(229, 57%, 11%)  ;
+    overflow: hidden;
+}
+
+.navigation{
+    position: relative;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 20px 65px 20px 20px;
+    height: 25vh;
+    width:10vw;
+   right: -50vw;
+    top:40vh;
+    
+
+}
+.details-wrapper{
+    background-color:hsl(228, 56%, 26%); 
+    border-radius: 10px ;
+    width:40vw;
+
+}
+.foto{
+    background-image:url("./images/bg-desktop.png") ;
+    background-repeat:no-repeat;
+    height:65vh ;
+
+    position:relative;
+   top: 22vh;
+  z-index: -1;
+   left:23vw;
+}
